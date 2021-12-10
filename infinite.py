@@ -52,7 +52,3 @@ print(-s2/3, "= S ≌ -1/12")
 s = -1/12
 
 print("✔️   The Ramanujan Summation: 1 + 2 + 3 + ⋯ + ∞ = -1/12 ✔️")
-
-
-
-
