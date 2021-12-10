@@ -1,4 +1,4 @@
-#Ramanujan summation
+#Understanding ramanujan summation
 print("The Ramanujan Summation: 1 + 2 + 3 + ⋯ + ∞ = -1/12?")
 input("for start press enter:")
 
