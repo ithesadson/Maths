@@ -32,7 +32,6 @@ s2=1/4
 print("2*(S2)= 1/2 ===> S2 = ",s2 ,"≌ 1/4")
 input("its ok? --> Press enter:")
 
-
 SminesS2 =[]
 #S - S2 =?
 for j in range(len(S)-1):
