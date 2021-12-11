@@ -19,6 +19,7 @@ print("S1 sum = 1 or 0 = 1+0/2 -> ", s1 ,"≌ 1/2")
 S2  =  [1,-2, 3,-4, 5,-6, 7,-8]
 print("\nS2: ",S2)
 S20 =  [0, 1,-2, 3,-4, 5,-6,-7,8,-9]
+#---> S2 + S2 =?
 S2plusS20=[]
 for i in range(len(S2)-1):
     result=S2[i]+S20[i]
@@ -29,7 +30,7 @@ s2=1/4
 print("2*(S2)= 1/2 ===> S2 = ",s2 ,"≌ 1/4")
 
 SminesS2 =[]
-#S - S2 =?
+#---> S - S2 =?
 for j in range(len(S)-1):
     rslt = S[j]-S2[j]
     SminesS2.append(rslt)
