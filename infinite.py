@@ -12,18 +12,21 @@ def translate(A):
 S = [1,2,3,4,5,6,7,8] # S=infinite array 1+2+3+4+5+...
 S1  =  [1,-1, 1,-1, 1,-1, 1,-1,]
 s1= 1/2
-translate(S)
+translate(S1)
 print("= S1 Array")
-print("S1 sum = 1 or 0 = 1+0/2 -> ", s1 ,"≌ 1/2")
+print("S1 sum = 1 or 0 = 1+0/2 -> ", s1 ,"≌ 1/2\n")
 
 S2  =  [1,-2, 3,-4, 5,-6, 7,-8]
-print("\nS2: ",S2)
+translate(S2)
+print("= S2 Array")
 S20 =  [0, 1,-2, 3,-4, 5,-6,-7,8,-9]
 #---> S2 + S2 =?
 S2plusS20=[]
 for i in range(len(S2)-1):
     result=S2[i]+S20[i]
     S2plusS20.append(result)
+translate(S20)
+print("\n")
 translate(S2plusS20)
 print("= S2 + S2 = 2*S2",)
 s2=1/4
