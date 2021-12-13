@@ -1,6 +1,6 @@
 #Project Euler : https://projecteuler.net/problem=686
-t=15
 
+t=15
 p = int(str(2**90)[:t])
 p196 = int(str(2**196)[:t])
 p289 = int(str(2**289)[:t])
