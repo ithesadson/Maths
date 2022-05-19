@@ -1,5 +1,4 @@
 #How to understand ramanujan summation
-
 print("The Ramanujan Summation: 1 + 2 + 3 + ⋯ + ∞ = -1/12?")
 
 def translate(A):
